@@ -1,9 +1,22 @@
 body {
-  background-color: $color-tertiary;
+  background-color: $white;
+  width: 100%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
+  color: $color-primary;
   font-family: 'VT323';
+}
+
+h1 {
+  background-color: $white;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
 }
 
 p {
@@ -11,15 +24,42 @@ p {
   font-family: 'Ubuntu';
 }
 
-/*
-
-@mixin body-text {
-  font-family: 'Open Sans';
+img {
+  max-width: 100%;
 }
 
-@mixin header-text {
-  font-family: 'Roboto';
-  font-weight: 500;
+.container-plant-type {
+  border: 2px solid red;
+  
+  .plant-type-card {
+  border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5em;
+    
+    &-inner {
+    border: 2px solid green;
+   /* flex: 1;*/
+    }
+    &-inner-plant {
+    border: 2px solid wheat;
+    flex-shrink: 0;
+  }
 }
 
-*/
+  h1,
+  h2 {
+  margin: 0;
+  }
+}
+
+.background-diamond {
+  background: $color-secondary;
+  content:' ';
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+}
