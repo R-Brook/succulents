@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|VT323");
+body {
+  background-color: #bacfca; }
 
+h1, h2, h3 {
+  font-family: 'VT323'; }
+
+p {
+  color: #000;
+  font-family: 'Ubuntu'; }
+
+/*
+
+@mixin body-text {
+  font-family: 'Open Sans';
+}
+
+@mixin header-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+*/
 
 /*# sourceMappingURL=style.css.map */

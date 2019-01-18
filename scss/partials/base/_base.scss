@@ -1,0 +1,25 @@
+body {
+  background-color: $color-tertiary;
+}
+
+h1, h2, h3 {
+  font-family: 'VT323';
+}
+
+p {
+  color: $black;
+  font-family: 'Ubuntu';
+}
+
+/*
+
+@mixin body-text {
+  font-family: 'Open Sans';
+}
+
+@mixin header-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+*/

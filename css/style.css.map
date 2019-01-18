@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAQ,mEAA2D;ACAnE,IAAK;EACH,gBAAgB,ECED,OAAO;;ADCxB,UAAW;EACT,WAAW,EAAE,OAAO;;AAGtB,CAAE;EACA,KAAK,ECFC,IAAI;EDGV,WAAW,EAAE,QAAQ;;AAGvB;;;;;;;;;;;EAWE",
+"sources": ["../scss/partials/utilities/_fontfaces.scss","../scss/partials/base/_base.scss","../scss/partials/utilities/_variables.scss"],
 "names": [],
 "file": "style.css"
 }
